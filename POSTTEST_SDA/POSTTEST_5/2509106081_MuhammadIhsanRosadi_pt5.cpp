@@ -58,7 +58,7 @@ bool cariBuku(BukuNode* head, string judulDicari) {
         }
 
         temp = temp->next; // Melanjutkan ke node berikutnya
-    } while (temp != head); // Ketika temp kembali kehead maka penelusuran berhenti
+    } while (temp != head); // Ketika temp kembali ke head maka penelusuran berhenti
 
     return false; // Ketika seluruh list sudah ditelusuri dan tidak ditemukan maka nilai yang dikembalikan adalah false
     // -----------------------------
